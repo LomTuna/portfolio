@@ -1,0 +1,143 @@
+
+body{
+  size: 100%;
+
+  background-color: darkgray;
+}
+
+ul {
+  display: inline;
+  list-style-type: none;
+  margin: 100px;
+  padding: 0;
+  width: 200px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;  
+}
+
+li {
+  text-align: center;
+  float: left;
+}
+
+li a:hover {
+  background-size: 100px;
+  background-color:grey;
+  color: white;
+}
+
+.topnav a {
+  display: flex;
+  flex-wrap: wrap;
+  display: inline-block;
+  padding: 10px;
+  margin-left: 200px ;
+  text-align: center;
+  font-size: 22px;}
+
+.hero img {
+  border-radius: 50%;
+  position: relative;
+
+}
+
+.hero {
+  background-image: url(./images/night-the-city-building-pixels-wallpaper-preview.jpeg);
+  background-size: 100%;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 53px;
+}
+
+.hero-cta {
+  margin-left: 600px;
+  justify-content: space-around;
+  font-size: 30px;
+  width: 35%;
+  text-align: center;
+  padding: 0px;
+  margin: 10%;
+  color: #fff;
+  line-height: 1.3;
+}
+
+.hero-cta h2 {
+  font-style: bold;
+  font-size: 200px;
+  color: rgb(255, 236, 60);
+}
+
+.hero-cta p {
+  font-size: 50px;
+  font: bold;
+  padding: 0px;
+  margin: 0px;
+}
+
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 0 100px;
+}
+
+.run-buddy a {
+  float: left;
+  margin-top: 50px;
+  margin-left: 150px;
+  text-decoration: none;
+  color: rgb(255, 236, 60);
+  background-color: none;
+}
+
+.run-buddy a:hover {
+  color: #fff;
+  opacity: 80%;
+}
+
+.project-list a {
+  font-size: 30px;
+  text-align: center;
+}
+
+img {
+  flex-grow: 100px   ;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.run-buddy img {
+  display: inline;
+  margin-left: 0px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border: solid 5px;
+}
+
+.run-buddy p {
+  text-align: center;
+  margin-right: 20px;
+  padding: 0px;
+  font-size: 50px;
+}
+
+.cat img {
+  display: inline;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border: solid 5px blue;
+}
