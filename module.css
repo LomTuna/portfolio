@@ -162,3 +162,32 @@ img {
   color: black;
   display: block;
 }
+
+.Niche{
+  
+}
+
+.Niche img:hover{
+  opacity: 80%;
+  color: #fff;
+}
+
+.cat p{
+  margin-left: 30px;
+}
+
+.Niche p{
+  margin-left: 250px;
+}
+
+.Niche img{
+  display: inline;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border: solid 5px brown;
+  width: fit-content;
+}
